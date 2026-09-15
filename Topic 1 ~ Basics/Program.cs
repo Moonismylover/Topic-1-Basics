@@ -99,8 +99,12 @@ namespace Topic_1___Basics
              2. How would you print out the number of characters in a string called passPhrase?
                 Console.WriteLine(__________________________);
 
+                string passPhrase = "headphonesarepurple";
+                Console.WriteLine(passPhrase.Length);
                 
-3. What does the Trim() method do? Why might this be useful?
+             3. What does the Trim() method do? Why might this be useful?
+
+                The Trim() method removes whitespace. This is useful when 
 
             */
         }
