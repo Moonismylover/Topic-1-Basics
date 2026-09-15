@@ -31,7 +31,13 @@ namespace Topic_1___Basics
             Console.WriteLine("Hello " + aFriend);
             Console.WriteLine($"Hello {aFriend}");
 
+            Console.WriteLine();
 
+            string firstFriend = "Maria";
+            string secondFriend = "Sage";
+            Console.WriteLine();
+
+            Console.WriteLine();
 
         }
     }
