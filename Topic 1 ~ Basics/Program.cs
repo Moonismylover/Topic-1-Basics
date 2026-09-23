@@ -83,7 +83,7 @@ namespace Topic_1___Basics
 
             // The output will be True and False respectively.
 
-            /* 
+            /*
             
             Questions 
 
@@ -94,7 +94,8 @@ namespace Topic_1___Basics
                 Console.WriteLine("Hello " + firstName);
                 Console.WriteLine)$"Hello {firstName}");
                 
-                I personally prefer the string interpolation method as it is quicker to write and less chances for mistakes.
+                I personally prefer the string interpolation method as it is quicker to write 
+                and less chances for mistakes.
 
              2. How would you print out the number of characters in a string called passPhrase?
                 Console.WriteLine(__________________________);
@@ -104,9 +105,38 @@ namespace Topic_1___Basics
                 
              3. What does the Trim() method do? Why might this be useful?
 
-                The Trim() method removes whitespace. This is useful when 
+                The Trim() method removes whitespace. This is useful because
+                it can help clean up user input.
 
-            */
+             4. Methods such as Trim(), ToUpper(), ToLower() and Replace() do not actually
+                change the original string. Instead they return a new string. What do you need to add to the
+                following line of code so that schoolCheer will be all caps when it is printed? 
+                (Hint: you will need to overwrite the existing string with the new version returned by the method)
+
+                string schoolCheer = "programmers are the best";
+                schoolCheer = schoolCheer.ToUpper();
+                Console.WriteLine(schoolCheer);
+
+             5. Attempt the challenge on step 5 of the Hello World tutorial by using StartsWith() 
+                and EndsWith(). 
+            
+                string quote = "Life meets you at your audacity";
+                Console.WriteLine(quote.StartsWith("Life"));       // Prints True
+                Console.WriteLine(quote.EndsWith("audaceity"));    // Prints False
+                Console.WriteLine(quote);
+
+             6. Go to the official documentation for strings and find the Methods menu on the left. Look for
+                Trim() and see if you can use the documentation to figure out how to remove a ‘+’ character
+                from the beginning/end of a string. If you enclose a character in a single quotation (‘), it will be
+                converted to a char.
+            
+                char[] charsToTrim = { '+' };
+                string plusString = "+++++Hello World++++++";
+                string result = plusString.Trim(charsToTrim);
+                Console.WriteLine(result);
+          
+           */
+
         }
     }
 }
